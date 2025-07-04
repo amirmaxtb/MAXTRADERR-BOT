@@ -144,7 +144,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
 # اجرای ربات
 def main():
     # بررسی توکن
-    if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+    if not BOT_TOKEN or BOT_TOKEN == "7951072696:AAEmDDiXpnxgdTG6ZbBMTYCXgLYyeCqKlBA"
         print("❌ Error: Bot token is not set!")
         print("Please set BOT_TOKEN environment variable or edit the bot_working.py file")
         print("To get a bot token:")
